@@ -1,0 +1,163 @@
+
+.top-bar {
+    background-color: #71b700;
+}
+/*head-section*/
+@media (min-width: 768px) {
+    .top-bar{
+        background-color: transparent!important;
+    }
+    .header {
+        position: relative;
+    }
+    .header .top-bar {
+        position: absolute;
+        z-index: 100;
+    }
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight:250;
+}
+.navbar-brand span{
+    font-weight: 500;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: bold;
+}
+.dropdown-menu{
+    background-color: #71b100 !important;
+    position:static !important;
+}
+.dropdown-menu .dropdown-item{
+    text-transform: uppercase;
+    color:white;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: rgb(221, 121, 7);
+}
+/*carousal section*/
+.slide p{
+    font-size: 20px;
+}
+#slide-h3{
+    font-size: 40px;
+    font-weight: 350;
+}
+#slide-h4{
+    background-color: #71b100 !important;
+}
+#slide-a{
+    color: white;
+    background-color:rgb(221, 121, 7) ;
+}
+#slide-a:hover{
+    color:black;
+}
+/*about us*/
+#aboutus i{
+    font-size: 125px;
+    color: rgb(221, 121, 7);
+}
+#aboutus h3{
+    padding:0 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+/*properties*/
+.properties img{
+    max-height: 400px;
+}
+.properties h3{
+    font-weight: 350;
+}
+.properties .card-price{
+    color:rgb(100, 145, 10);
+    font-size:18px;
+    font-weight: 400;
+}
+.properties i{
+    font-size: 40px;
+}
+.properties a{
+    background-color: rgb(221, 121, 7);
+    color:white;
+    font-weight: 500;
+}
+.properties a:hover{
+    background-color: orange;
+    color:black;
+}
+/*find your house*/
+.find-your-house{
+    background-image:url(../img/image10.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 400px;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.212),rgba(0, 0, 0, 0.267));*/
+}
+.find-your-house h3{
+    margin-top:100px;
+    font-size: 40px;
+}
+.find-your-house a{
+    background-color: rgb(221, 121, 7);
+    color:white;
+    font-weight: 500;
+}
+.find-your-house a:hover{
+    background-color: orange;
+    color:black;
+}
+.meta span{
+    color:rgb(221, 121, 7);
+}
+/*blog section*/
+.entry h3{
+    font-weight: 300;
+}
+.entry h3::after{
+    content: '';
+    display: block;
+    width: 8rem;
+    height: .2rem;
+    background-color: #71b100;
+    margin-top: .5rem;
+}
+.entry h2{
+    font-weight: 300;
+}
+.entry a{
+    background-color:#71b100 ;
+    color:white;
+    font-weight: 500;
+}
+.entry a:hover{
+    color:white;
+    background-color: rgb(86, 126, 8);
+}
+.testimonials h2{
+    font-weight: 300;
+}
+.testimonial{
+    background-color: #71b100;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2.6rem;
+}
+.testimonial span{
+    font-weight: 600;
+    font-size: 25px;
+}
+/*footer*/
+.footer a{
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+}
+.copyright{
+    font-weight: 500;
+}
